@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cf-rabbitmq-example-app
+  annotations:
+    github.com/project-slug: arulvannala/cf-rabbitmq-example-app
+spec:
+  type: other
+  lifecycle: unknown
+  owner: default-team
