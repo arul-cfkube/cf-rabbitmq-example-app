@@ -1,0 +1,7 @@
+accelerator:
+  displayName: Rabbitmq-sample
+  description: Rabbitmq Service Binding on TAP
+  iconUrl: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zabbix.com%2Fintegrations%2Frabbitmq&psig=AOvVaw1O0UVOo2IqYnjBL-2cfFev&ust=1653159689883000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPD6-_Lh7vcCFQAAAAAdAAAAABAJ
+  tags:
+  - simple
+  - getting-started
