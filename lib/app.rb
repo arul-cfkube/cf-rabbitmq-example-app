@@ -4,16 +4,16 @@ require 'cf-app-utils'
 
 DATA ||= {}
 
-before do
-  unless rabbitmq_creds('uris')
-    halt 500, %{You must bind a RabbitMQ service instance to this application.
+# before do
+#   unless rabbitmq_creds('uris')
+#     halt 500, %{You must bind a RabbitMQ service instance to this application.
 
-You can run the following commands to create an instance and bind to it:
+# You can run the following commands to create an instance and bind to it:
 
-  $ cf create-service p-rabbitmq development rabbitmq-instance
-  $ cf bind-service <app-name> rabbitmq-instance}
-  end
-end
+#   $ cf create-service p-rabbitmq development rabbitmq-instance
+#   $ cf bind-service <app-name> rabbitmq-instance}
+#   end
+# end
 
 get '/ping' do
   begin
