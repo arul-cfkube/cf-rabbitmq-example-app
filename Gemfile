@@ -4,6 +4,7 @@ gem 'cf-app-utils', git: 'http://github.com/cloudfoundry/cf-app-utils-ruby.git'
 
 gem 'sinatra'
 gem 'bunny'
+gem 'puma'
 
 group :test do
   gem 'rack-test'
